@@ -1,8 +1,9 @@
 {
   "name":"kingdom-gym-bettiah-experience",
-  "version":"1.0.0",
+  "version":"2.0.0",
   "private":true,
-  "scripts":{"dev":"next dev","build":"next build","start":"next start","test":"vitest run","test:watch":"vitest"},
-  "dependencies":{"next":"16.0.0","react":"19.2.0","react-dom":"19.2.0"},
-  "devDependencies":{"@types/node":"22.15.0","@types/react":"19.1.0","@types/react-dom":"19.1.0","typescript":"5.8.3","vitest":"3.2.4"}
+  "type":"module",
+  "scripts":{"dev":"vite","build":"tsc -b && vite build","preview":"vite preview","test":"vitest run","test:watch":"vitest","check":"tsc -b"},
+  "dependencies":{"@vitejs/plugin-react":"latest","framer-motion":"latest","gsap":"latest","lenis":"latest","lucide-react":"latest","react":"latest","react-dom":"latest"},
+  "devDependencies":{"@types/node":"latest","@types/react":"latest","@types/react-dom":"latest","jsdom":"latest","typescript":"latest","vite":"latest","vitest":"latest"}
 }
